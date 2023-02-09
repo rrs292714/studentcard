@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student card</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .student-id{
+            width: 500px;
+            height: 400px;
+            background-color: bisque;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .grid-container{
+            
+            display:grid;
+            grid-template-columns: auto auto;
+            padding: 10px;
+            margin: 0;
+            height: 100%;
+
+        }
+        .grid-item{
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 30px;
+            height: 100%;
+            padding: 30px;
+            margin: 0;
+
+        }
+        .span{
+            font-weight:bold;
+        }
+
+    </style>
+</body>
+<div class="main">
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="logo.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+
+            </div>
+
+            <div class="grid-item">
+3
+            </div>
+            <div class="grid-item">
+4
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        
+    </div>
+    <div class="student-id">
+    </div>
+    <div class="student-id">
+    </div>
+
+</div>
+</html>
