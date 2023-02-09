@@ -5,34 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>student card</title>
-</head>
-<body>
     <style>
         *{
             box-sizing: border-box;
+            
         }
+        /* body{
+            background-color: black;
+        } */
         .main{
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .student-id{
-            width: 500px;
-            height: 400px;
-            background-color: bisque;
+            width: 100%;
             border-radius: 10px;
             margin: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .student-id{
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 10px;
         }
         .grid-container{
-            
+            background-color: bisque;
+            width: 100%;
             display:grid;
             grid-template-columns: auto auto;
             padding: 10px;
+            border: 1px solid black;
             margin: 0;
-            height: 100%;
+            border-radius: 20px;
+        
 
         }
+        .grid-container:hover{
+            transform: scale(0.9);
+        }
         .grid-item{
-            background-color: rgba(255, 255, 255, 0.8);
+            
             font-size: 30px;
             height: 100%;
             padding: 30px;
@@ -42,14 +53,20 @@
         .span{
             font-weight:bold;
         }
+        img{
+            width: 200px;
+            border-radius: 50%;
+        }
+
 
     </style>
-</body>
+</head>
+<body>
 <div class="main">
     <div class="student-id">
         <div class="grid-container">
             <div class="grid-item">
-                <img src="logo.png" alt="logo" style="width: 100px;">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
             </div>
             <div class="grid-item">
                 <span class="span">Name:</span>Rahulraj<br>
@@ -58,21 +75,100 @@
             </div>
 
             <div class="grid-item">
-3
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
             </div>
             <div class="grid-item">
-4
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
             </div>
 
         </div>
     </div>
     <div class="student-id">
-        
-    </div>
-    <div class="student-id">
-    </div>
-    <div class="student-id">
-    </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
 
+            </div>
+
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+
+            </div>
+
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+
+            </div>
+
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+
+        </div>
+    </div>
+    <div class="student-id">
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+
+            </div>
+
+            <div class="grid-item">
+                <span class="span">Name:</span>Rahulraj<br>
+                <span></span>
+            </div>
+            <div class="grid-item">
+                <img src="./Screenshot 2023-02-09 231118.png" alt="logo" style="width: 100px;">
+            </div>
+
+        </div>
+    </div>
 </div>
+</body>
 </html>
+
